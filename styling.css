@@ -1,0 +1,93 @@
+@font-face {
+  font-family: myAtariFont;
+  src: url(AtariSmall.ttf);
+}
+@font-face {
+  font-family: BACKTO1982;
+  src: url(BACKTO1982.TTF);
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  font-family: BACKTO1982;
+  color: yellow;
+  
+
+}
+
+h2 {
+  text-align: center;
+  font-family: myAtariFont;
+  color: yellow;
+}
+
+.grid {
+  width: 300px;
+  height: 300px;
+  border: solid white 1px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.shooter {
+  background-color: green;
+  border-radius: 2px;
+}
+
+.laser {
+  background-color: yellow;
+}
+
+.boom {
+  background-color: red;
+}
+
+#Play_button {
+  display: block;
+  margin: auto;
+  padding: 0.21%;
+}
+
+#Play_button:hover {
+  background-color: yellow;
+}
+
+#background {
+ position: absolute;
+  background-color: white;
+  width:0.5%;
+  height: 0.5%;
+  border-radius: 100%;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
